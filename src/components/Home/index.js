@@ -115,6 +115,8 @@ const WeatherApp = () => {
                 return "/haze.png"
             case "Dust":
                 return "/tornado.png"
+            case "Drizzle":
+                return "/clouds.png"
             default:
                 return null;
         }
